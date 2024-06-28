@@ -26,9 +26,6 @@ const SYMBOLS_VALUES = {
     'D': 2,
 }
 
-
-
-
 const deposit =  () => {
     while (true) {
         const depositAmount = prompt('Enter a deposit amount:')
@@ -76,7 +73,6 @@ const spin = () => {
             symbols.push(symbol);
         }
     };
-    // console.log(symbols)
 
     const reels = [[], [], []];
     for (let i = 0; i < COLS; i++){
@@ -165,5 +161,3 @@ const game = () => {
 };
 
 game();
-// console.log(reels)
-// console.log(rows)
